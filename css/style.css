@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: paleturquoise;
+}
+
+#survey {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
