@@ -7,9 +7,202 @@
   <body>
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1 id="title">Survey Form</h1>
-    <div id="survey">
-      <p id="description">Let us know how we can improve our service.</p>
+    <h1 id="title">Developer Survey Form</h1>
+    <div id="survey-container">
+      <p id="description">We would like to learn more about how you learned to code.</p>
+
+      <form id="survey-form">
+        <div class="form-row">
+          <div class="row-left">
+            <label id="name-label" for="name">* Name:</label>
+          </div>
+          <div class="row-right">
+            <input id="name" class="text-input" type="text"
+                   placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="row-left">
+            <label id="email-label" for="email">* Email:</label>
+          </div>
+          <div class="row-right">
+            <input id="email" class="text-input" type="email"
+                   placeholder="Enter your email address" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="row-left">
+            <label id="number-label" for="number">* Age:</label>
+          </div>
+          <div class="row-right">
+            <input id="number" class="text-input" type="number" min="1"
+                   max="100" placeholder="Enter your age" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="row-left">
+            <label id="dropdown-label" for="dropdown">
+                Male:
+            </label>
+          </div>
+          <div class="row-right">
+            <select id="dropdown" >
+              <option value="">Select an option</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="non-binary">Non-Binary</option>
+              <option value="no-response">Rather not say</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="row-left">
+            <label id="education-label" for="education-level">
+                Highest level of education:
+            </label>
+          </div>
+          <div class="row-right">
+            <fieldset id="education-level">
+              <label id="some-high-label" for="some-high">
+                <input id="some-high" type="radio" name="education"
+                       value="some-high">Some High School
+              </label>
+              <br>
+
+              <label id="high-diploma-label" for="high-diploma">
+                <input id="high-diploma" type="radio" name="education"
+                       value="high-diploma">High School Diploma
+              </label>
+              <br>
+
+              <label id="some-university-label" for="some-university">
+                <input id="some-university" type="radio" name="education"
+                       value="some-univerity">Some College/University
+              </label>
+              <br>
+
+              <label id="assoc-degree-label" for="assoc-degree">
+                <input id="assoc-degree" type="radio" name="education"
+                       value="assoc-degree">Associates Degree
+              </label>
+              <br>
+
+              <label id="bachelors-degree-label" for="bachelors-degree">
+                <input id="bachelors-degree" type="radio" name="education"
+                       value="bachelors-degree">Bachelors Degree
+              </label>
+              <br>
+
+              <label id="diploma-label" for="diploma">
+                <input id="diploma" type="radio" name="education"
+                       value="diploma">Diploma
+              </label>
+              <br>
+
+              <label id="masters-label" for="masters">
+                <input id="masters" type="radio" name="education"
+                       value="masters">Masters Degree
+              </label>
+              <br>
+
+              <label id="doctorate-label" for="doctorate">
+                <input id="doctorate" type="radio" name="education"
+                       value="doctorate">Doctorate
+              </label>
+            </fieldset>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="row-left">
+            <label id="learn-code-label" for="learn-code">
+              When did you first to code:</label>
+          </div>
+          <div class="row-right">
+            <fieldset id="learn-code">
+              <label id="six-months-label" for="six-months">
+                <input id="six-months" type="radio" name="learn-code"
+                       value="six-months">Less than six months ago
+              </label>
+              <br>
+
+              <label id="one-year-label" for="one-year">
+                <input id="one-year" type="radio" name="learn-code"
+                       value="one-year">About a year ago
+              </label>
+              <br>
+
+              <label id="two-five-label" for="two-five">
+                <input id="two-five" type="radio" name="learn-code"
+                       value="two-five">2 - 5 years ago
+              </label>
+              <br>
+
+              <label id="six-ten-label" for="six-ten">
+                <input id="six-ten" type="radio" name="learn-code"
+                       value="six-ten">6 - 10 years ago
+              </label>
+              <br>
+
+              <label id="eleven-fifteen-label" for="eleven-fifteen">
+                <input id="eleven-fifteen" type="radio" name="learn-code"
+                       value="eleven-fifteen">11 - 15 years ago
+              </label>
+              <br>
+
+              <label id="sixteen-twenty-label" for="sixteen-twenty">
+                <input id="sixteen-twenty" type="radio" name="learn-code"
+                       value="sixteen-twenty">16 - 20 years ago
+              </label>
+              <br>
+
+              <label id="over-twenty-label" for="over-twenty">
+                <input id="over-twenty" type="radio" name="learn-code"
+                       value="over-twenty">Over twenty years ago
+              </label>
+            </fieldset>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="row-left">
+            <label id="how-learn-label" for="how-learn">How did you learn to code:</label>
+          </div>
+          <div class="row-right">
+            <fieldset id="how-learn">
+              <label id="university-label" for="university">
+                <input id="university" type="checkbox" name="how-learn"
+                       value="university">College/University
+              </label>
+              <br>
+
+              <label id="vocational-label" for="vocational">
+                <input id="vocational" type="checkbox" name="how-learn"
+                       value="vocational">Vocational training school
+              </label>
+              <br>
+
+              <label id="bootcamp-label" for="bootcamp">
+                <input id="bootcamp" type="checkbox" name="how-learn"
+                       value="bootcamp">Coding bootcamp
+              </label>
+              <br>
+
+              <label id="mentor-label" for="mentor">
+                <input id="mentor" type="checkbox" name="how-learn"
+                       value="mentor">Mentored
+              </label>
+              <br>
+
+              <label id="self-taught-label" for="self-taught">
+                <input id="self-taught" type="checkbox" name="how-learn"
+                       value="self-taught">Self-taught
+              </label>
+            </fieldset>
+          </div>
+        </div>
+        <div class="form-row">
+          <input id="submit" type="submit" value="Submit">
+        </div>
+      </form>
     </div>
   </body>
 </html>
