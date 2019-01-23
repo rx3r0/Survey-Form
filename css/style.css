@@ -36,6 +36,10 @@ body {
     width: 40%;
 }
 
+#dropdown {
+    height: 30px;
+}
+
 .text-input {
     height: 20px;
     width: 90%;
