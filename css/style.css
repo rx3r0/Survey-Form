@@ -5,20 +5,20 @@ body {
     font-family: "Raleway", "Trebuchet MS", sans-serif;
     color: white;
     background: linear-gradient(
-        180deg, hsl(200, 100%, 15%), hsl(200, 0%, 30%)
+        180deg, hsl(200, 100%, 20%), hsl(200, 20%, 20%)
     );
 }
 
 #title {
     font-family: "Open Sans", "Trebuchet MS", sans-serif;
     font-weight: 800;
+    text-shadow: 2px 2px 2px black;
 }
 
 #survey-container {
     max-width: 900px;
     width: 80%;
     margin: auto;
-    //background-color: white;
     border-radius: 10px;
     padding: 10px;
     font-size: 15px;
@@ -32,11 +32,14 @@ body {
 .form-row {
     padding: 3px;
     vertical-align: top;
+    padding-top: 10px;
 }
+
 .row-left {
     display: inline-block;
     text-align: right;
     padding: 5px;
+    margin-right: 9px;
     width: 40%;
     vertical-align: top;
 }
@@ -45,6 +48,7 @@ body {
     display: inline-block;
     text-align: left;
     width: 40%;
+    margin-left: 9px;
 }
 
 #dropdown {
@@ -68,6 +72,7 @@ fieldset {
 [type=radio], [type=checkbox] {
     margin-right: 10px;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 #other-area {
