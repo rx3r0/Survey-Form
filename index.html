@@ -42,7 +42,7 @@
         <div class="form-row">
           <div class="row-left">
             <label id="dropdown-label" for="dropdown">
-                Male:
+              Male:
             </label>
           </div>
           <div class="row-right">
@@ -58,7 +58,7 @@
         <div class="form-row">
           <div class="row-left">
             <label id="education-label" for="education-level">
-                Highest level of education:
+              Highest level of education:
             </label>
           </div>
           <div class="row-right">
@@ -200,7 +200,89 @@
           </div>
         </div>
         <div class="form-row">
-          <input id="submit" type="submit" value="Submit">
+          <div class="row-left">
+            <label id="helpful-resources-label" for="helpful-resources">
+              Which online resources have you found most helpful:
+            </label>
+          </div>
+          <div class="row-right">
+            <fieldset id="helpful-resources">
+              <label id="freecodecamp-label" for="freecodecamp">
+                <input id="freecodecamp" type="checkbox"
+                       name="helpful-resources" value="freecodecamp">
+                Free Code Camp
+              </label>
+              <br>
+
+              <label id="stackoverflow-label" for="stackoverflow">
+                <input id="stackoverflow" type="checkbox"
+                       name="helpful-resources" value="stackoverflow">
+                Stack Overflow
+              </label>
+              <br>
+
+              <label id="codecademy-label" for="codecademy">
+                <input id="codecademy" type="checkbox" name="helpful-resources"
+                       value="codecademy">Codecademy
+              </label>
+              <br>
+
+              <label id="udemy-label" for="udemy">
+                <input id="udemy" type="checkbox" name="helpful-resources"
+                       value="udemy">Udemy
+              </label>
+              <br>
+
+              <label id="mozilla-label" for="mozilla">
+                <input id="mozilla" type="checkbox" name="helpful-resources"
+                       value="mozilla">Mozilla Developer Network
+              </label>
+              <br>
+
+              <label id="khan-academy-label" for="khan-academy">
+                <input id="khan-adademy" type="checkbox"
+                       name="helpful-resources" value="khan-academy">
+                Khan Academy
+              </label>
+              <br>
+
+              <label id="coursera-label" for="coursera">
+                <input id="coursera" type="checkbox" name="helpful-resources"
+                       value="coursera">Coursera
+              </label>
+              <br>
+
+              <label id="css-tricks-label" for="css-tricks">
+                <input id="css-tricks" type="checkbox" name="helpful-resources"
+                       value="css-tricks">CSS Tricks
+              </label>
+              <br>
+
+              <label id="udacity-label" for="udacity">
+                <input id="udacity" type="checkbox" name="helpful-resources"
+                       value="udacity">Udacity
+              </label>
+              <br>
+
+              <label id="hackerrank-label" for="hackerrank">
+                <input id="hackerrank" type="checkbox" name="helpful-resources"
+                       value="hackerrank">HackerRank
+              </label>
+              <br>
+
+              <label id="other-label" for="other">
+                <input id="other" type="checkbox" name="helpful-resources"
+                       value="other">Other:<br>
+                <textarea id="other-area" name="helpful-resources"
+                          value="other-area"
+                          placeholder="Enter one online resource per line.">
+                </textarea>
+              </label>
+            </fieldset>
+          </div>
+        </div>
+        <div class="form-row">
+          <button id="submit" type="submit">Submit</button>
         </div>
       </form>
     </div>
