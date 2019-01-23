@@ -2,17 +2,17 @@
 
 body {
     text-align: center;
-    font-family: "Raleway", "Trebuchet MS", sans-serif;
+    font-family: "Open Sans", "Trebuchet MS", sans-serif;
     color: white;
     background: linear-gradient(
-        180deg, hsl(200, 100%, 20%), hsl(200, 20%, 20%)
+        180deg, hsl(200, 100%, 17%), hsl(200, 0%, 17%)
     );
+    text-shadow: 1px 1px 4px black;
 }
 
 #title {
     font-family: "Open Sans", "Trebuchet MS", sans-serif;
     font-weight: 800;
-    text-shadow: 2px 2px 2px black;
 }
 
 #survey-container {
@@ -21,7 +21,7 @@ body {
     margin: auto;
     border-radius: 10px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 100;
 }
 
