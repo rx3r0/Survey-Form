@@ -3,7 +3,10 @@
 body {
     text-align: center;
     font-family: "Raleway", "Trebuchet MS", sans-serif;
-    background-color: paleturquoise;
+    color: white;
+    background: linear-gradient(
+        180deg, hsl(200, 100%, 15%), hsl(200, 0%, 30%)
+    );
 }
 
 #title {
@@ -15,7 +18,7 @@ body {
     max-width: 900px;
     width: 80%;
     margin: auto;
-    background-color: white;
+    //background-color: white;
     border-radius: 10px;
     padding: 10px;
     font-size: 15px;
